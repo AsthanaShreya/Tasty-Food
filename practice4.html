@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <title>my page</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+      
+        <script src="https://kit.fontawesome.com/2b3b18369a.js" crossorigin="anonymous"></script>
+        <style>
+            body{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: rgb(225, 228, 230);
+            }
+            main{
+                height:70vh;
+                width:30%;
+                margin: auto;
+                /* border: 1px solid red; */
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+                border-radius:5px;
+                overflow:hidden;
+                animation:tast1 1s ease forwards;
+            }
+                  
+        
+           
+            @keyframes tast1{
+                from{ 
+                    opacity:0;
+                    transform:translateX(-100%);
+                }
+        
+                to{
+                    opacity:1;
+                    transform:translateX(0);
+                }
+            }   
+            #div1{
+                background-color: rgb(158, 198, 101);
+                display: flex;
+                align-items: center;
+                color: white;
+                /* border-radius:2px; */
+            }
+
+            #div1 div{
+                width: 100px;
+                height: 100px;
+                /* border: 1px solid red; */
+                margin: auto;
+                display: grid;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+            }
+            #div2{
+                background-color: white;
+                font-family: Arial, sans-serif;
+            }
+            #div2 div{
+                width: 90%;
+                height: 100px;
+                margin: auto;
+                display: grid;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+            }
+            button{
+                margin: auto;
+                margin-left: 35%;
+                padding: 8px 30px;
+                border-radius: 20px;
+                background-color:rgb(158, 198, 101) ;
+                /* border: 2px dolid rgb(158, 198, 101) ; */
+                border-color: rgb(158, 198, 101) ;
+                color: white;
+                /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+                box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+          
+            }
+            a{
+                text-decoration:none;
+                color:white;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <main>
+
+            <div id="div1">
+                <div>
+                    <i class='far fa-check-circle' style='font-size:58px;color:white'></i>
+                    <p>SUCCESS</p>
+
+                </div>
+            </div>
+            <div id="div2">
+                <div> Congratulation, your order has been successfully placed.</div>
+                <button><a href="practice2.html">Continue</a></button>
+
+            </div>
+
+        </main>
+    </body>
+</html>

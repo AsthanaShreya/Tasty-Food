@@ -1,0 +1,234 @@
+<html>
+    <head>
+        <title>My Page </title>
+        <style>
+            body{
+               margin:0;
+               padding:0px;
+               background-size:cover;
+             
+            }
+            .a{
+               overflow: hidden;
+               /* position: fixed; */
+               /* top: 0; */
+               width: 100%;
+               /* opacity:9; */
+               /* border:10px; */
+
+               height:70px;
+               background-color:rgb(224, 147, 59);
+                
+               text-decoration:none;
+               display:flex;
+               align-items:center;
+               /* display: block; */
+               /* opacity: 12; */
+               left: 0;
+               font-size:20px;
+            
+            }
+            /* .a:link{ */
+            /* color:black; */
+            /* } */
+           
+          
+            
+            #a{
+               font-size:30px;
+               font-family:sans-serif;
+               display: block;
+            }
+            a{
+               margin-right:150px;
+               text-decoration:none;
+                
+            }
+            main{
+               margin-top: 80px;
+            }
+             
+            img{
+               width:100%;
+               height:80%;
+               border-radius:40px;
+            } 
+        
+            #bbb{
+               /* border: 1px solid red; */
+               margin-top: -70px;
+               overflow: hidden;
+               width: 100%;
+            }
+
+            .b{ 
+               position:absolute;
+               top:30%;
+               width:50%;
+               opacity: 2;
+               text-align:center;
+               color:white;
+               font-size:40px;
+            } 
+            input{
+               width:30%;
+               border-radius:10px;
+            }
+            button{
+               background-color:red;
+               border-radius:10px;
+            }
+            a:hover{
+               color:red;
+            }
+            a{
+               color:white;
+            }
+            h1{
+               font-size:30px;
+               margin-left:20px;
+               font-family:sans-serif;
+               color:rgb(19, 72, 35);
+               box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            }
+            #image{
+               /* border:1px solid red; */
+               display: grid;
+               grid-template-columns: repeat(5, 1fr);
+               gap: 40px;
+               margin-left: 20px;
+               width:80%;
+               height:500px;
+               margin: auto;
+            }
+            #image>div{
+               overflow:hidden;
+               border:1px solid white;
+               height:auto;
+               background-color:blanchedalmond;
+               border-radius:30px;
+               box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            }
+            #image>div>img{
+               width:100%;
+            }
+            #image>div>h2{
+               text-align:center;
+               margin-top:4px;
+            }
+            /* #image>div>button{ */
+            /* text-align:center; */
+            /* color:aliceblue; */
+            /* margin-left:40px ; */
+            /* margin-top:1px; */
+            /* } */
+            footer{
+               background-color:orange;
+               text-align:center;
+               /* text-decoration:none; */
+               /* display:flex; */
+               width:100%;
+               height:30%;
+            }
+            footer >ul >li{
+               text-decoration:none;
+               list-style:none;
+            }
+             
+        </style>
+    </head>
+    <body>
+      <div class="a">
+
+            
+         <a id="a" style="color:black;"><img src="./logo.jpg"></a> 
+         <a style="color:black;">TASTY-FOOD</a>
+         <a href="practice2.html">OUR MENU </a>  
+         <a href="#contact">CONTACT US</a>
+            
+         <input type="text" name="search" placeholder="search dishes">
+         <button>SEARCH</button>
+                  
+            <!-- <button>search</button> -->
+      </div>
+      <main>
+         <div id="bbb">
+            <img id="bb" src="https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/f55c87d06a345e9c94021f3e/3007283.jpg" alt="image" >
+            <div class="b">
+            <h3>50% OFF<br>Tasty Food<br>On Your Hand </h3>
+            </div>
+         </div>
+         <h1>Recommend food for you</h1>
+
+         <div id="image">
+            <div>
+               <img src="https://static.toiimg.com/thumb/53110049.cms?width=1200&height=900">
+               <h2>Pizza</h2>
+            </div>
+            
+            <div>
+               <img src="https://static.toiimg.com/thumb/63841432.cms?imgsize=1151127&width=800&height=800">
+               <h2>Dosa</h2>
+            </div>
+            <div>
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf7sy3LhruA3nsc1-tKQne0c2MS4dCPSDg-g&usqp=CAU">
+               <h2>Soft Drinks</h2>
+            </div>
+            <div>
+               <img src="https://momsmenu.in/pub/media/catalog/product/cache/302932e06c75cb63782eab83a283aca3/p/a/paneer_butter_masala1_1.png">
+               <h2>Paneer</h2>
+            </div>
+            
+            <div>
+               <img src="https://www.licious.in/blog/wp-content/uploads/2020/12/Pan-Fried-Chicken.jpg">
+               <h2>Chicken</h2>
+            </div>
+            <div>
+               <img src="https://www.archanaskitchen.com/images/archanaskitchen/0-Affiliate-Articles/RESTAURANT_STYLE_SOUTH_INDIAN_THALI_original.jpg">
+               <h2>Southen Thali</h2>
+            </div>
+            <div>
+               <!-- <img src="h>s://www.eitanbernath.com/wp-content/uploads/2020/05/Butter-Paneer-1-4x5-LOW-RES-819x1024.jpeg"> -->
+               <img src="https://static1.squarespace.com/static/5f2fa039103c7a08856032c1/5f2fa051df524e64bc14bd2a/6265f28d83150d6937812406/1653757580513/public.jpeg?format=1500w">
+               <h2>Northen Thali</h2>
+               <!-- <button>Order</button> -->
+            </div>
+            <div>
+               <img src="https://www.licious.in/blog/wp-content/uploads/2020/12/Chicken-Fried-Rice-min.jpg">
+               <h2>Fried Rice</h2>
+               <!-- <button>Order</button> -->
+            </div>
+            <div>
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReAY8Rm0T8X1Gsf9mdAHajQ-cx_DVDKrFtTA&usqp=CAU">
+               <h2>Cake</h2>
+               <!-- <button>Order</button> -->
+            </div>
+            <div>
+               <img src="https://nowlucknow.com/wp-content/uploads/2021/03/AM6A8478-scaled.jpg">
+               <h2>Chinese Thali</h2>
+               <!-- <button>Order</button> -->
+            </div>
+        </div>
+      </main>
+
+      <footer id="contact">
+         
+         <ul>
+            <li>CONTACT: </li>
+            <br>
+            <li>+917820098218</li>
+            <li>+916386000892</li>
+            <li>
+               <br>
+               EMAIL:</li>
+                  <li>tastyfood@gmail.com</li>
+                  <li>food@gamil.com</li>
+                  <br>
+            
+         </ul>
+      </footer>
+        
+    
+   </body>
+
+</html>
